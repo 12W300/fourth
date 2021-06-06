@@ -8,11 +8,11 @@ if __name__ == '__main__':
     s3 = ('')
     l1 = len(s1)
     l2 = len(s2)
+    l3 = len(s3)
     f = 1
     for i in range(l2):
         if s3.find(s2[i]) == -1:
             s3 += s2[i]
-    l3 = len(s3)
     for i in range(l3):
         if s1.find(s3[i]) == -1:
             f = 0
